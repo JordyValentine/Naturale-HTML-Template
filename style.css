@@ -1,0 +1,341 @@
+/*
+    Title: Naturale
+	Creator: Jordy Valentine
+	Website: jordyvalentine.com
+	License: See license.txt
+	Description: A minimal, yet elegant web template
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+html
+{
+  overflow: hidden;
+  height: 99%;
+}
+                         
+body
+{
+  background: rgb(211, 226, 195);
+  height: 99%;
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+  text-align: center;
+}
+
+*
+{
+  font-size: 8pt; 
+  font-family: Tahoma, Verdana, sans-serif; 
+  color: #000000;
+  text-align: left;
+}
+
+.list
+{
+  margin: 5px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+
+
+
+/* === Containers === */
+
+
+
+#first_container
+{
+  margin: 0 auto 0 auto; 
+  display: table; 
+  height: 100%;  
+  position: relative; 
+  overflow: hidden; 
+  width: 660px;
+}
+
+#second_container
+{
+  position: absolute; 
+  top: 50%;
+  vertical-align: middle;
+  width: 100%; 
+}
+
+#third_container
+{
+  position: relative; 
+  top: -163px; 
+  width: 660px;
+}
+
+
+
+/* === Menu === */
+
+
+
+#menu
+{
+  height: 31px;
+  padding-right: 2px;
+  margin: 0;
+  list-style: none;   
+}
+
+#menu li
+{
+  float: right;
+  display: block;
+  width: 82px;  height: 31px;  
+}
+
+#menu a
+{
+  display: block;
+  width: 82px;  height: 31px;  
+  background-color: inherit;
+  text-decoration: none;
+  line-height: 31px;
+  text-align: center;
+}
+/*
+#menu a:link, #menu a:visited
+{
+  color: #749942; 
+  background-color: #D3E2C3;
+}
+
+#menu a:hover, #menu a:active
+{
+  background-image: url('images/taba2.png');
+  color: #ffffff; 
+}
+*/
+#menustart
+{
+  display: block;
+  width: 82px;  height: 31px;  
+  background-image: url('images/tab1.png');    
+  text-decoration: none;
+  line-height: 31px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#menuabout
+{
+  display: block;
+  width: 82px;  height: 31px;  
+  background-image: url('images/taba2.png');    
+  text-decoration: none;
+  line-height: 31px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#menuservices
+{
+  display: block;
+  width: 82px;  height: 31px;  
+  background-image: url('images/taba2.png');    
+  text-decoration: none;
+  line-height: 31px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#menuportfolio
+{
+  display: block;
+  width: 82px;  height: 31px;  
+  background-image: url('images/taba2.png');    
+  text-decoration: none;
+  line-height: 31px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#menusplat
+{
+  display: block;
+  width: 82px;  height: 31px;  
+  background-image: url('images/taba.png');    
+  text-decoration: none;
+  line-height: 31px;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+
+/* === Language menu === */
+
+
+
+#submenu
+{
+  float: left;
+  height: 31px;
+  width: 300px;
+  padding-left: 10px;
+  margin: 0;
+  list-style: none;   
+
+}
+
+#submenu li
+{
+  float: left;
+  display: block;
+  width: 82px;  height: 31px;  
+}
+
+#submenu a
+{
+  display: block;
+  width: 82px;  height: 31px;  
+  background-color: inherit;
+  text-decoration: none;
+  line-height: 25px;
+  text-align: center;
+}
+
+#submenu a:link, #submenu a:visited
+{
+  color: #749942; 
+  background-color: #D3E2C3;
+}
+
+#submenu a:hover, #submenu a:active
+{
+  background-image: url('images/tabb.png');
+  color: #ffffff; 
+}
+
+#submenuselected
+{
+  display: block;
+  width: 82px;  height: 31px;  
+  background-image: url('images/tabb.png');    
+  text-decoration: none;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+
+/* === Other Divs === */
+ 
+
+
+.border
+{
+  background-color: #2f2f2f;
+  padding: 15px 15px 15px 146px;
+  height: 232px;
+  background-image: url('images/back.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: left;
+}
+
+.title
+{
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 15px; 
+  width: 32px;
+  height: 232px;
+  background-image: url('images/logo.png');
+}
+
+.content
+{
+  height: 217px;
+  overflow: auto;
+  padding: 7px;
+}
+
+.designinfo
+{
+  margin-top: 5px;
+  text-align: right;
+  color: #749942;
+  background-color: inherit;
+}
+
+
+
+/* === Inline Text Styles === */
+
+
+
+h1
+{
+  margin: 10px 0 -40px -2px;
+  padding: 0 10px 40px 9px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: inherit;
+  border-left: 5px solid rgb(211, 226, 195);
+
+}
+
+.details
+{
+  display: none;
+  font-size: 9px;
+  color: #6E7468;
+}
+
+.text
+{
+  display: block;
+  margin: 5px 5px 20px 12px;
+}
+
+.text a
+{
+  color: #666F53;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.text a:hover, .text a:active
+{
+  color: #000000;
+}
+
+blockquote
+{
+  margin: 3px 0 3px 0;
+  padding: 5px 10px 5px 10px;
+}
+
+.note
+{
+  	display: block;
+	margin: 10px 15px 10px 15px;
+	color: #555555;
+}
+
+.bold
+{
+  font-weight: bold;
+}
